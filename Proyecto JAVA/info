@@ -1,0 +1,61 @@
+==Atributos de un POKEMON==
+
+Las estadísticas de combate o características (Statistics en inglés) de un Pokémon son los atributos naturales que posee al atacar o defenderse en un combate, simbolizados en puntos.
+
+Las estadísticas se dividen en PS (puntos de salud), ataque, defensa, ataque especial, defensa especial y velocidad. 
+
+Se consideran estadísticas base las que un Pokémon tiene al nacer de un huevo Pokémon, o en su defecto al nivel 1.
+
+*PS
+
+condición física del Pokémon, representada con un valor numérico. Estos son reducidos normalmente mediante los ataques del oponente en combate.
+
+PS actuales / PS totales
+
+Una vez que los PS del Pokémon lleguen a cero, el Pokémon será debilitado y quedará fuera de combate.
+
+*Ataque
+El ataque, en las estadísticas de un Pokémon, representa la fuerza natural del Pokémon al realizar un movimiento físico.
+
+Los ataques físicos se miden con el ataque del Pokémon y la defensa de nuestro rival
+Estos pueden ser incrementados o disminuidos temporalmente en combate, mediante el uso de movimientos.
+
+*defensa
+La defensa, en las estadísticas de un Pokémon, representa la resistencia natural de un Pokémon ante los movimientos físicos. Esta, al igual que el ataque, puede ser incrementada o disminuida en combate por el uso de ciertos movimientos.
+
+La defensa, por menor que sea, reducirá los daños a un mínimo de 1 PS por movimiento, excepto si es inmune al elemento del movimiento, o si se usa un movimiento para defenderse, como protección.
+
+
+*Velocidad
+La velocidad es la propiedad del Pokémon de atacar, antes o después, que el oponente.
+Si dos Pokémon tienen exactamente la misma velocidad, sin ningún objeto modificador de la misma y sin usar movimientos con prioridad, el Pokémon que ataca primero se decide al azar.
+
+Esta regla tiene excepciones, ya que existen movimientos con prioridad tanto positiva como negativa, que permiten al usuario atacar antes o después, respectivamente, independientemente de la velocidad del que lo usa.
+=============================
+*Tipo
+atributos asociados a los Pokémon y a los movimientos desarrollados por estos, que permiten su clasificación y crean relaciones entre ellos basadas en las ventajas y debilidades de los tipos.
+=================================
+
+=>Obtener los datos anteriores en: https://www.wikidex.net/wiki/Lista_de_Pokémon_con_sus_estadísticas_base
+
+
+==========Atributos de un movimiento==========
+
+*Los PP (puntos de poder).
+se definen como el número de veces que el Pokémon puede realizar el mismo movimiento. La media está entre los que son de 20 y 25.
+
+*La potencia.
+es la fuerza o energía de los movimientos que aprovechan las estadísticas de ataque o ataque especial implicada para calcular el daño infligido a un Pokémon.
+
+
+
+
+======JAVA========
+
+Constructor: Inicializar atributos
+
+Setters: Cambiar los valores de un objeto.
+
+getters: visualiza los valores que ya estan definidos.
+
+
