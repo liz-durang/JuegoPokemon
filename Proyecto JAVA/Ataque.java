@@ -4,7 +4,7 @@ public class Ataque implements Cloneable{
     String tipo;
     int PP; //puntos de poder
     int potencia;
-    int nivel; 
+   
 
     //constructor
     public Ataque (String nombre, String tipo,int PP, int potencia)
