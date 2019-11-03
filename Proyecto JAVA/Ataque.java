@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-public class Ataque {
+public class Ataque implements Cloneable{
     
     String nombre; 
     String tipo;
@@ -8,13 +7,17 @@ public class Ataque {
     int nivel; 
 
     //constructor
-    public Ataque (String nombre, String tipo,int PP, int potencia, int nivel)
+    public Ataque (String nombre, String tipo,int PP, int potencia)
     {
         this.nombre = nombre;
         this.tipo = tipo;
         this.PP = PP;
         this.potencia = potencia; 
-        this.nivel = nivel;
+    }
+
+    public Ataque()
+    {
+
     }
 
     //Setters
@@ -27,8 +30,14 @@ public class Ataque {
     public int getPP () {return PP;}
     public int getPotencia () {return potencia;}
     
-
-   
-  
-
+    public Ataque clonarAtaque (Ataque ataqueAClonar)
+    {
+        Ataque copiaAtaque = null;
+        try {
+            copiaAtaque = (Ataque)ataqueAClonar.clone();
+        } catch (Exception e) {
+            System.out.println("NO se pudo clonar");
+        }
+        return copiaAtaque;
+    }
 }
