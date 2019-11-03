@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner; 
 
 public class Jugador {
@@ -79,8 +78,7 @@ public class Jugador {
                 int auxIndex = pokebola.indexOf(name); //obtiene el indice en donde se encuentra actualmente el pokemon con el que se iniciara
                 pokebola.set(0, name); //el pokemon elegido se pone en primer lugar
                 pokebola.set(auxIndex,auxPoke); //el pokemon que estaba en primer lugar se pasa al lugar del pokemon elegido. 
-              
-                System.out.println("Perfecto, continuemos.");
+        
             }
             else
             {
@@ -91,6 +89,5 @@ public class Jugador {
         
     }
 
- 
     
 }
