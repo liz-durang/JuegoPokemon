@@ -47,7 +47,18 @@ se definen como el número de veces que el Pokémon puede realizar el mismo movi
 *La potencia.
 es la fuerza o energía de los movimientos que aprovechan las estadísticas de ataque o ataque especial implicada para calcular el daño infligido a un Pokémon.
 
+=======DAÑO=======
+B = Bonificación. Si el ataque es del mismo tipo que el Pokémon que lo lanza toma un valor de 1.5, si el ataque es de un tipo diferente al del Pokémon que lo lanza toma un valor de 1.
 
+E = Efectividad. Puede tomar los valores de 0, 0.25, 0.5, 1, 2 y 4.
+
+V = Variación. Es una variable que comprende todos los valores discretos entre 85 y 100 (ambos incluidos).
+
+A = Cantidad de ataque o ataque especial del Pokémon. 
+
+P = Poder del ataque, el potencial del ataque.
+
+D = Cantidad de defensa del Pokémon rival.
 
 
 ======JAVA========
