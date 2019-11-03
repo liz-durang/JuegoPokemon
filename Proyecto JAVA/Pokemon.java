@@ -110,7 +110,6 @@ public class Pokemon implements Cloneable{
             B = 1; 
         }
 
-        System.out.println("\n B es: "+B);
 
         //Efectividad 
         double E  ;
@@ -122,28 +121,19 @@ public class Pokemon implements Cloneable{
         else if (random == 4){E = 2;}
         else{E = 4;}
 
-        System.out.println("\n E es: "+E);
 
         //Variacion //random()*cantidad de numeros en el rango + termino inicial del rango
         double V = ((int)(Math.random()*15+85)); 
 
-        System.out.println("\n V es: "+V);
-
         //Cantidad Ataque
         double A = this.ataque;
 
-        System.out.println("\n A es: "+A);
 
         //Potencial del ataque 
         double P = ataqueUsado.getPotencia();
-
-        System.out.println("\n P es: "+P);
          
         //Defensa
         double D = pokeDefensa.defensa;
-
-        System.out.println("\nD es: "+D);
-
 
         double daño = (0.01*B*E*V)*(    (((0.2*1)+1)*A*P)    / (25*D)  +2);
 
