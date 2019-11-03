@@ -7,8 +7,8 @@ public class Jugador {
     ArrayList <String> pokebola= new ArrayList <String> ();
 
     Scanner entrada = new Scanner (System.in);  
-    int victorias = 0; 
-    int derrotas = 0;
+    int victoria = 0; 
+    int derrota = 0;
 
     //constructor 
 
@@ -34,7 +34,7 @@ public class Jugador {
     {
         System.out.println("\nHola  " + nombre + "!! ");
 
-        System.out.println("Antes de iniciar,debes elegir 6 Pokemones.\n");
+        System.out.println("\nAntes de iniciar,debes elegir 6 Pokemones.\n");
 
         //mostrar Pokemones disponibles, seleccionarlos y agregarlos al jugador. 
 
@@ -45,7 +45,7 @@ public class Jugador {
 
         for (int i = 1; i < 7; i++) 
         {   
-        System.out.print ("\n\nIngresa el nombre del Pokemon" + i + " --> ");
+        System.out.print ("\nIngresa el nombre del Pokemon" + i + " --> ");
             String namePoke = entrada.nextLine (); 
             pokebola.add(namePoke);
         }
