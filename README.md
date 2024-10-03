@@ -1,1 +1,3 @@
-# Proyecto-JAVA
+# Proyecto JAVA
+
+Curso Prebecario Java. Proteco
